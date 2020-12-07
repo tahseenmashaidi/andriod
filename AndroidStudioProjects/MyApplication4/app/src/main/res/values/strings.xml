@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My CV</string>
+    <string name="name">Name</string>
+    <string name="email">Email Address</string>
+    <string-array name="country">
+        <item>Select Country</item>
+        <item>Pakistan</item>
+        <item>UK</item>
+        <item>US</item>
+        <item>UAE</item>
+        <item>Canada</item>
+    </string-array>
+</resources>

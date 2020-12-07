@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hint_resource">Qualification</string>
+    <string-array name="text">
+        <item>None</item>
+        <item>Matric</item>
+        <item>Inter</item>
+        <item>Bachelor</item>
+        <item>Master</item>
+    </string-array>
+</resources>

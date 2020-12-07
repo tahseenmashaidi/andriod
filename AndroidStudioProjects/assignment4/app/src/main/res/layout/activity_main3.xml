@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:orientation="horizontal" >
+
+    <TextView android:text="A"/>
+    <TextView android:text="B"/>
+    <TextView android:text="C"/>
+    <TextView android:text="D"/>
+    <TextView android:text="E"/>
+    <TextView android:text="F"/>
+    <TextView android:text="G"/>
+    <TextView android:text="H"/>
+    <TextView android:text="I"/>
+    <TextView
+        android:text="A"
+        android:layout_row="1"
+        android:layout_col="2" />
+    <TextView android:text="B" />
+    <TextView android:text="C" />
+    <TextView android:text="D" />
+    <TextView android:text="E" />
+    <TextView
+        android:text="F”
+        android:layout_row=0
+        android:layout_col=0 />
+    <TextView
+     android:text="D" />
+    <TextView android:text="H" />
+    <TextView android:text="I" />
+    <TextView android:text="A" />
+<TextView android:text="B"  android:layout_rowSpan="2"  android:layout_gravity="fill"  android:gravity="center" />
+<TextView android:text="C" />
+    <TextView android:text="D" />
+    <TextView android:text="E"  android:layout_colSpan="2"  android:layout_gravity="fill" />
+    <TextView android:text="F" />
+    <TextView android:text="G" />
+
+</GridLayout>

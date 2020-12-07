@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button_send">Send Message</string>
+    <string name="some_hint">Name</string>
+    <string name="gmail">Gmail</string>
+    <string name="number">Number</string>
+</resources>

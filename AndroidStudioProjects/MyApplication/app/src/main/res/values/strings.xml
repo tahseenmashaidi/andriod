@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="text">
+        <item>Matric</item>
+        <item>Inter</item>
+        <item>Bachelor</item>
+        <item>Master</item>
+        <item>None</item>
+    </string-array>
+</resources>

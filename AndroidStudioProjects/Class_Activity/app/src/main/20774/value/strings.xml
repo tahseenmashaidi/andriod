@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My APP</string>
+    <string name="setting">Setting</string>
+    <string name="age">Age Units</string>
+    <string name="color">Different Color</string>
+    <string name="about">About</string>
+    <string name="calculate_btn">Calculate Age</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="save">Save</string>
+    <string-array name="age_unit">
+        <item>Years</item>
+        <item>Months</item>
+        <item>Days</item>
+    </string-array>
+    <string-array name="color">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>

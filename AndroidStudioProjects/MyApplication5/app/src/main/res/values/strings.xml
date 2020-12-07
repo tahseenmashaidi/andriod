@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="alphabets_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        . . .
+        <item>Z</item>
+    </string-array>
+    <string-array name="sports_array">
+        <item>Badminton</item>
+        <item>Rugby</item>
+        <item>Squash</item>
+        <item>Tennis</item>
+        <item>Soccer</item>
+        <item>Field Hockey</item>
+        <item>Cricket</item>
+        <item>Basketball</item>
+        <item>Ice Hockey</item>
+        <item>Baseball</item>
+        <item>Cycling</item>
+        <item>Football</item>
+    </string-array>
+
+</resources>

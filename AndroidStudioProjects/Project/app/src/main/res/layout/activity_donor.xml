@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="portal.bloood.portal.Donor">
+    <TextView
+        android:id="@+id/donor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event List"
+        android:onClick="Event_list"
+        android:textFontWeight="700"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/layout">
+        <TextView
+            android:clickable="true"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:onClick="btn1"
+            android:layout_marginTop="10dp"
+            android:text="Event One"/>
+        <TextView
+            android:clickable="true"
+            android:id="@+id/btn2"
+            android:onClick="btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="Event Two"/>
+        <TextView
+            android:clickable="true"
+            android:id="@+id/btn3"
+            android:onClick="btn3"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Event Three"/>
+        <TextView
+            android:clickable="true"
+             android:id="@+id/btn4"
+            android:onClick="btn4"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Event Four"/>
+        <TextView
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn5"
+            android:onClick="btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Event Five"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Request"
+        android:textFontWeight="700"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+    <ListView
+        android:id="@+id/list_view4"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
